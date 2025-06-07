@@ -33,17 +33,13 @@ An educational DevOps project designed to build a fully automated development en
 ```bash
 vagrant up
 
-
 Then open your browser and go to:
 http://localhost:8080
 
 You should see: 
-Hello from DevOps Lab!
+Hello from your DevOps Lab machine!
 
-⚙️ Project Structure
-bash
-Kopiuj
-Edytuj
+⚙️ Project Structure:
 DevOps-Lab/
 ├── app/
 │   └── server.py        # Python HTTP server
