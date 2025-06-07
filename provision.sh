@@ -7,7 +7,7 @@ sudo apt update
 sudo apt install -y python3 python3-pip
 
 #Create folder for app
-mkdir -p/home/vagrant/app
+mkdir -p /home/vagrant/app
 
 #Copy serwer files into VM
 cp /vagrant/app/server.py /home/vagrant/app/
