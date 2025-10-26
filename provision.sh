@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Update system
-sudo apt update
+sudo apt update -y
 
 #Instal python and pip
 sudo apt install -y python3 python3-pip
@@ -10,4 +10,4 @@ sudo apt install -y python3 python3-pip
 mkdir -p /home/vagrant/app
 
 #Run the application
-nohup python3 /home/vagrant/app/server.py
+nohup python3 /home/vagrant/app/app.py
